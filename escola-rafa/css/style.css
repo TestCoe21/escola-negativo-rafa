@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #0e1f36 19.62%, #123669 85.61%);
+}
+
+.link-logo-cabecalho {
+    width: 5em;
+    height: 5em;
+    padding-left: 10px;
+    padding-top: 10px;
+    float: left;
+}
+
+.cabecalho-menu {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(209, 209, 209);
+}
+
+.cabecalho {
+    text-align: right;
+    position: relative;
+}
+
+.nome-cabecalho{
+    text-align: center;
+    padding-top: 1.1em;
+    font-weight: 400;
+    font-size: large;
+}
